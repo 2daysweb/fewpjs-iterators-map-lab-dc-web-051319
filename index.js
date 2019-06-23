@@ -21,15 +21,10 @@ const titleCased = () => {
   
   //return changed array 
   
-  function capitalize(str) 
-  {
-    
-    
-    let split_str = string.split(" ")
-    let capitalized =   
-  }
+
+let arrCaps = tutorials.map(x => (x[0].toUpperCase() + x.slice(1)));
+
   
   
-  
-  return tutorials
+  return arrCaps
 }
