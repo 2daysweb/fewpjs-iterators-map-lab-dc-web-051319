@@ -1,4 +1,4 @@
-const tutorials = [
+let tutorials = [
   'what does the this keyword mean?',
   'What is the Contutorialuctor OO pattern?',
   'implementing Blockchain Web API',
@@ -14,5 +14,15 @@ const tutorials = [
 
 
 const titleCased = () => {
+  
+  //First take the array and capitalize the first character 
+  
+  //Take the array and map the values which result from the function we're passing (to uppercase the first char) 
+  
+  //return changed array 
+  
+  
+  
+  
   return tutorials
 }
