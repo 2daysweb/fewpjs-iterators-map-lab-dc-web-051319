@@ -26,7 +26,7 @@ const titleCased = () => {
     
     
     let split_str = string.split(" ")
-    let capitalized = string[0]  
+    let capitalized =   
   }
   
   
