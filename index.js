@@ -21,11 +21,11 @@ const titleCased = () => {
   
   //return changed array 
   
-  function capitalize(string) 
+  function capitalize(str) 
   {
     
     
-    let original_string.split(" ")
+    let split_str = string.split(" ")
     let capitalized = string[0]  
   }
   
