@@ -23,8 +23,6 @@ const titleCased = () => {
   
 
 let arrCaps = tutorials.map(x => (x[0].toUpperCase() + x.slice(1)));
-
-  
   
   return arrCaps
 }
