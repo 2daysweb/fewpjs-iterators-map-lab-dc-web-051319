@@ -24,7 +24,7 @@ const titleCased = () => {
 
 let arrCaps = tutorials.map(x => 
 
-(x.split(" ").map( y => y[0].toUpperCase() + y.slice(1))    );
+(x.split(" ").map( y => y[0].toUpperCase() + y.slice(1))).join(" "));
   
   return arrCaps
 }
