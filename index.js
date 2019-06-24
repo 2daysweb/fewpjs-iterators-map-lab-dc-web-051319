@@ -14,19 +14,12 @@ let tutorials = [
 
 
 const titleCased = () => {
-  
-  //First take the array and capitalize the first character 
-  
-  //Take the array and map the values which result from the function we're passing (to uppercase the first char) 
-  
-  //return changed array 
-  
 
-let arrCaps = tutorials.map(x => 
+let arrCaps = tutorials.map(sentence => 
 
-(x.split(" ").map( y =>
+(sentence.split(" ").map( word =>
 
-    y[0].toUpperCase() + y.slice(1))).join(" "));
+    word[0].toUpperCase() + word.slice(1))).join(" "));
   
   return arrCaps
 }
